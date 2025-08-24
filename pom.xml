@@ -24,7 +24,7 @@ under the License.
     <groupId>org.apache.maven.plugins</groupId>
     <artifactId>maven-plugins</artifactId>
     <version>45</version>
-    <relativePath />
+    <relativePath/>
   </parent>
 
   <artifactId>maven-javadoc-plugin</artifactId>
@@ -111,7 +111,7 @@ under the License.
 
   <properties>
     <javaVersion>8</javaVersion>
-    <mavenVersion>3.6.3</mavenVersion>
+    <mavenVersion>3.9.11</mavenVersion>
     <doxiaSitetoolsVersion>2.0.0</doxiaSitetoolsVersion>
     <wagonVersion>3.5.3</wagonVersion>
     <resolverVersion>1.4.1</resolverVersion>
@@ -525,7 +525,7 @@ under the License.
                 <!-- seems to be wrong, see comment in Jira issue  -->
                 <pomExclude>output-encoding/pom.xml</pomExclude>
               </pomExcludes>
-              <properties combine.self="override" />
+              <properties combine.self="override"/>
               <filterProperties>
                 <maven.compiler.source>${maven.compiler.source}</maven.compiler.source>
                 <maven.compiler.target>${maven.compiler.target}</maven.compiler.target>
@@ -555,7 +555,7 @@ under the License.
                       <source>src/it/mrm/repository</source>
                       <cloneTo>${project.build.directory}/mock-repo</cloneTo>
                     </mockRepo>
-                    <proxyRepo />
+                    <proxyRepo/>
                   </repositories>
                 </configuration>
               </execution>
