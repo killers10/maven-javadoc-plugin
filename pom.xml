@@ -24,7 +24,7 @@ under the License.
     <groupId>org.apache.maven.plugins</groupId>
     <artifactId>maven-plugins</artifactId>
     <version>45</version>
-    <relativePath />
+    <relativePath/>
   </parent>
 
   <artifactId>maven-javadoc-plugin</artifactId>
@@ -323,7 +323,7 @@ under the License.
     <dependency>
       <groupId>org.codehaus.plexus</groupId>
       <artifactId>plexus-archiver</artifactId>
-      <version>4.10.0</version>
+      <version>4.11.0</version>
     </dependency>
     <!-- MNG-6607: needs to be overriden for commons-compress otherwise it will appear earlier in the tree -->
     <dependency>
@@ -525,7 +525,7 @@ under the License.
                 <!-- seems to be wrong, see comment in Jira issue  -->
                 <pomExclude>output-encoding/pom.xml</pomExclude>
               </pomExcludes>
-              <properties combine.self="override" />
+              <properties combine.self="override"/>
               <filterProperties>
                 <maven.compiler.source>${maven.compiler.source}</maven.compiler.source>
                 <maven.compiler.target>${maven.compiler.target}</maven.compiler.target>
@@ -555,7 +555,7 @@ under the License.
                       <source>src/it/mrm/repository</source>
                       <cloneTo>${project.build.directory}/mock-repo</cloneTo>
                     </mockRepo>
-                    <proxyRepo />
+                    <proxyRepo/>
                   </repositories>
                 </configuration>
               </execution>
